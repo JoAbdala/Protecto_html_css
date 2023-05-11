@@ -1,0 +1,196 @@
+/*color fondo #251D27
+amarillo #FCCF08
+color parrafos #BFB9BF
+gris #908D90
+font-family;'Lato', sans-serif;
+font-family;'Roboto'sans-serif;*/
+body {
+    margin: 0;
+}
+.web-sections {
+    display: none;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 200px;
+  
+}
+.logo img {
+    width: 100%;
+}
+@media screen  and (min-width:768px) {
+    .logo{
+        width: 350px;
+    }
+}
+.mobile-menu{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.mobile-menu p {
+    color: #FCCF08;
+    font-family:'Roboto'sans-serif; 
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+} 
+
+.contact-button {
+    display: none; 
+} 
+@media screen  and (min-width:1280px){
+         .Container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+         }
+        .mobile-menu{
+        display: none;
+            }
+        .web-sections { 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                font-family:'Roboto'sans-serif; 
+                font-size: 18px;
+                width: 300px;
+                
+            }
+            .web-sections a {
+                text-decoration: none;
+                color: #BFB9BF;
+            }
+            .contact-button{
+                display: block;
+            }
+            .contact-button button{
+                background-color: #FCCF08; 
+                font-family:'Roboto'sans-serif;
+                width: 130px;
+                height: 40px;
+                font-weight: 400;
+                font-size: 16px;
+                border: 1px solid #FCCF08;
+                border-radius: 5px;
+            }
+}
+    .home{
+    background-color:#251D27 ;
+    padding: 25px 40px 40px 40px;
+}
+@media screen and (min-width:768px){
+    .home{
+        padding: 25px 50px 50px 50px;
+    }
+}  
+.home-image{ 
+    width: auto;
+}
+@media screen  and (min-width:768px){
+    .home-contain{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    .home-image{
+        width: 350px;
+    }
+}
+.home-image img {
+    width: 100%;
+}
+.home-title{
+    margin: 60px 0 60px 0;
+}
+.home-title h1 {
+       color: white;
+       font-family:'Lato', sans-serif;
+       font-size: 45px;
+       font-weight: 400;
+}
+
+.home-presentation{
+    color: #BFB9BF;
+    font-family:'Roboto'sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 60px 0 60px 0;
+}
+.team-button{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family:'Roboto'sans-serif;
+    width: 130px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+@media screen  and (min-width:768px){
+    .home-title{
+        margin: 0;
+        padding-top: 40px;
+    }
+    .home-title h1 {
+        font-size: 86px;
+        line-height: 0;
+    }
+    .home-presentation{
+        width: 300px;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .team-button{
+        margin: 0;
+    }
+}
+@media screen  and (min-width:800px){
+    .home-contain{
+        justify-content: center;
+    }
+    .home-title h1{
+    text-align: center;
+    }    
+}
+@media screen  and (min-width:1280px){
+    .home-contain{
+        justify-content: center;
+        margin-bottom: 90px;
+    }
+    .home-title{
+        margin: 100px 0;
+    }
+    .home-title h1{
+        font-size: 140px;
+        text-align: center;
+        padding-bottom: 100px;
+        
+        
+    }
+    .home-image{
+        width: 500px;
+    }
+    .home-presentation{
+        width: 500px;
+    }
+    .home-presentation p{
+        font-size: 18px;
+    }
+    .team-button{
+        margin-top: 50px;
+    }
+}
